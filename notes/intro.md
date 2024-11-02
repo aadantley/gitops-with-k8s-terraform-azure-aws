@@ -119,3 +119,29 @@ There are differences between GitOps and DevSecOps; so we can use the words abov
 ## Creating an Azure account
 
 creating an account with my aadantley@gmail.com account.
+
+We also installed the azure CLI: we can use azure cli commands with `az COMMAND`; so `az -v` will retrieve the version number.
+
+```text
+C:\Users\aaron\__DEV__\__NOTES__\CAREER-PATH-LEARNING\Enterprise-DevOps\GItOps with Kubernetes>az -v
+azure-cli                         2.65.0
+
+core                              2.65.0
+telemetry                          1.1.0
+
+Dependencies:
+msal                              1.31.0
+azure-mgmt-resource               23.1.1
+
+Python location 'C:\Program Files\Microsoft SDKs\Azure\CLI2\python.exe'
+Extensions directory 'C:\Users\aaron\.azure\cliextensions'
+
+Python (Windows) 3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]
+
+Legal docs and information: aka.ms/AzureCliLegal
+
+
+Your CLI is up-to-date.
+```
+
+Then we'll use azure cli to build infrastructure with terraform.
